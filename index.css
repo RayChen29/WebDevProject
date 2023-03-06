@@ -1,0 +1,100 @@
+:root {
+  --violet: #9966dd;
+  --blue: #7c90c9;
+  --white: #ffffff;
+  --green: #396f3a;
+  --gray: #a9b3b3;
+
+  --logoHeight: 50px;
+  --navHeight: 100px;
+  --introPicHeight: 200px;
+  --aboutHeader: 50%;
+}
+
+body {
+  background-color: var(--blue);
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--violet);
+  height: var(--navHeight);
+  justify-content: center;
+}
+
+.nav-btn {
+  list-style: none;
+  text-decoration: none;
+  height: var(--navHeight);
+  width: var(--navHeight);
+  text-align: center;
+  line-height: 55px;
+}
+.nav-btn:visited {
+  color: black;
+}
+.nav-btn:hover {
+  color: var(--white);
+}
+
+.intro-header {
+  display: block;
+}
+
+.introduction {
+  overflow: auto;
+  width: 40vw;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.intro-greeting {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.intro-pic {
+  margin: auto;
+  border-radius: 50%;
+  width: 150px;
+}
+
+.links {
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 80px;
+}
+
+.intro-full {
+  text-align: center;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.intro-text {
+  display: block;
+}
+
+.github-icon {
+  width: 5%;
+}
+
+.bot-nav {
+  position: absolute;
+  bottom: 0;
+  background-color: var(--violet);
+  width: 100%;
+  height: var(--navHeight);
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 80px;
+}
