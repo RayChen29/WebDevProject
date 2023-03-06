@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ray Chen - Contact</title>
+
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="contact.css" />
+
+    <script defer src="contact.js"></script>
+  </head>
+  <body>
+    <main>
+      <nav class="navigation">
+        <a class="nav-btn" href="../index.html">
+          <h2>Home</h2>
+        </a>
+        <a class="nav-btn" href="../about/about.html">
+          <h2>About</h2>
+        </a>
+        <a class="nav-btn" href="../projects/projects.html">
+          <h2>Projects</h2>
+        </a>
+        <a class="nav-btn" href="contact.html">
+          <h2>Contact</h2>
+        </a>
+      </nav>
+
+      <div class="contact-container">
+        <h1>Got Questions or Comments? Contact Me!</h1>
+        <div class="form-box">
+          <form>
+            <div class="contact-card">
+              <label for="name">Your Name</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                class="name-input"
+                required
+              />
+            </div>
+            <div class="contact-card">
+              <label for="email">Your Email</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                class="email-input"
+                required
+              />
+            </div>
+            <div class="contact-card">
+              <label for="message" class="msg-label">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                class="message-input"
+                placeholder="Enter your message here"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Send</button>
+          </form>
+        </div>
+      </div>
+
+      <nav class="navigation bot-nav">© Raymond Chen 2023</nav>
+    </main>
+  </body>
+</html>

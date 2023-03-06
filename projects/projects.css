@@ -1,0 +1,48 @@
+[class^="project"] {
+  text-align: center;
+}
+
+.project-header {
+  text-align: center;
+}
+
+.project-blurb {
+  display: block;
+  margin-bottom: 15px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: var(--violet); */
+}
+
+[class^="project-link"] {
+  color: black;
+  text-decoration: none;
+  padding: 15px 0;
+}
+
+button {
+  background-color: var(--gray);
+}
+
+.project1,
+.project2,
+.project3 {
+  flex: 1;
+  flex-basis: 0;
+  flex-grow: 1;
+  display: inline-block;
+  width: 15vw;
+  justify-content: center;
+  padding: 20px 10px;
+  background-color: var(--white);
+  border-radius: 10%;
+  margin: 0 2rem;
+}

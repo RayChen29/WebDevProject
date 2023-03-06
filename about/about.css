@@ -1,0 +1,23 @@
+.skill-header {
+  text-align: center;
+  margin-right: var(--aboutHeader);
+  margin: 0 auto;
+}
+
+.about-div {
+  margin-top: 10%;
+  font-weight: bold;
+  margin: 0 auto;
+  justify-content: center;
+
+  width: 35vw;
+}
+
+.about-skills {
+  font-weight: normal;
+  margin: 0 auto;
+}
+
+.skill-bullets {
+  margin-left: 15%;
+}
