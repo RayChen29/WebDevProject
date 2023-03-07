@@ -46,3 +46,6 @@ input[class$="input"] {
   font-weight: bold;
   font-size: 20px;
 }
+.disclaimer {
+  color: var(--white);
+}
