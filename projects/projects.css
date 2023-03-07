@@ -11,6 +11,9 @@
   margin-bottom: 15px;
   width: 300px;
   margin: 0 auto;
+  background-color: var(--white);
+  border-radius: 10%;
+  padding: 10px;
 }
 
 .project-container {
@@ -28,9 +31,9 @@
   padding: 15px 0;
 }
 
-button {
+/* button {
   background-color: var(--gray);
-}
+} */
 
 .project1,
 .project2,
