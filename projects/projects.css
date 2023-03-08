@@ -7,10 +7,11 @@
 }
 
 .project-blurb {
-  display: block;
-  margin-bottom: 15px;
+  /* display: block; */
   width: 300px;
   margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
   background-color: var(--white);
   border-radius: 10%;
   padding: 10px;
@@ -19,10 +20,10 @@
 .project-container {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-evenly; */
   justify-content: center;
   align-items: center;
-  /* background-color: var(--violet); */
+  margin-top: 50px;
+  /* width: 80%; */
 }
 
 [class^="project-link"] {
@@ -31,21 +32,20 @@
   padding: 15px 0;
 }
 
-/* button {
-  background-color: var(--gray);
-} */
-
 .project1,
 .project2,
 .project3 {
   flex: 1;
   flex-basis: 0;
   flex-grow: 1;
-  display: inline-block;
   width: 15vw;
   justify-content: center;
   padding: 20px 10px;
   background-color: var(--white);
   border-radius: 10%;
   margin: 0 2rem;
+}
+
+.bot-nav {
+  margin-top: 50px;
 }

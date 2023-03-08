@@ -44,11 +44,18 @@ body {
   display: block;
 }
 
+.intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .introduction {
   overflow: auto;
   width: 40vw;
   justify-content: center;
   margin: 0 auto;
+  text-align: center;
 }
 
 .intro-greeting {
@@ -74,8 +81,6 @@ body {
 
 .intro-full {
   text-align: center;
-  width: auto;
-  height: auto;
   overflow: hidden;
 }
 
@@ -84,12 +89,10 @@ body {
 }
 
 .github-icon {
-  width: 5%;
+  width: 100px;
 }
 
 .bot-nav {
-  position: absolute;
-  bottom: 0;
   background-color: var(--violet);
   width: 100%;
   height: var(--navHeight);
@@ -97,4 +100,41 @@ body {
   font-size: 25px;
   font-weight: bold;
   line-height: 80px;
+  text-align: center;
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+  .intro-full {
+    max-width: 300px;
+  }
+  .bot-nav {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro-full {
+    width: 300px;
+  }
+  .github-icon {
+    width: 60px;
+  }
+  .copyright {
+    line-height: 40px;
+  }
+  .intro-full {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro-full {
+    width: 400px;
+  }
+  .copyright {
+    line-height: 40px;
+  }
+  .intro-full {
+    margin: 0 auto;
+  }
 }
