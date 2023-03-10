@@ -25,6 +25,23 @@ link1.addEventListener("mouseup", (event) => {
   link1.style.backgroundColor = violet;
 });
 
+let link2 = document.getElementsByClassName("project2")[0];
+link2.addEventListener("mouseover", (event) => {
+  link2.style.backgroundColor = violet;
+});
+link2.addEventListener("mouseout", (event) => {
+  link2.style.backgroundColor = white;
+});
+link2.addEventListener("mousedown", (event) => {
+  link2.style.backgroundColor = blue;
+});
+link2.addEventListener("click", (event) => {
+  window.open(project2, "_blank");
+});
+link1.addEventListener("mouseup", (event) => {
+  link2.style.backgroundColor = violet;
+});
+
 let link3 = document.getElementsByClassName("project3")[0];
 link3.addEventListener("mouseover", (event) => {
   link3.style.backgroundColor = violet;
