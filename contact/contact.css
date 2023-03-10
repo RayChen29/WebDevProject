@@ -45,6 +45,7 @@ input[class$="input"] {
   font-weight: bold;
   font-size: 20px;
   display: block;
+  margin-left: 40%;
 }
 .disclaimer {
   display: block;
@@ -66,8 +67,4 @@ input[class$="input"] {
     padding-right: 70px;
     padding-left: 25px;
   }
-}
-
-.bot-nav {
-  margin-top: 50px;
 }
