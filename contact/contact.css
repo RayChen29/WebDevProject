@@ -42,13 +42,12 @@ input[class$="input"] {
   padding-bottom: 2%;
   border-radius: 5%;
   color: black;
-  /* background-color: var(--green); */
-  /* background-color: var(--white); */
   font-weight: bold;
   font-size: 20px;
-  /* style: disabled; */
+  display: block;
 }
 .disclaimer {
+  display: block;
   color: var(--white);
 }
 

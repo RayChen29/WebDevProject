@@ -9,6 +9,7 @@
   --navHeight: 100px;
   --introPicHeight: 200px;
   --aboutHeader: 50%;
+  --lineheight: 0px;
 }
 
 body {
@@ -103,6 +104,10 @@ body {
   text-align: center;
 }
 
+.copyright {
+  line-height: var(--lineheight);
+}
+
 @media (min-width: 414px) and (max-width: 767px) {
   .intro-full {
     max-width: 300px;
@@ -120,7 +125,7 @@ body {
     width: 60px;
   }
   .copyright {
-    line-height: 40px;
+    line-height: var(--lineheight);
   }
   .intro-full {
     margin: 0 auto;
@@ -132,7 +137,7 @@ body {
     width: 400px;
   }
   .copyright {
-    line-height: 40px;
+    line-height: var(--lineheight);
   }
   .intro-full {
     margin: 0 auto;
