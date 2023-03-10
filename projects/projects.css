@@ -33,9 +33,10 @@
 .project1,
 .project3 {
   flex: 1;
-  flex-basis: 0;
+  flex-basis: 5vw;
   flex-grow: 1;
-  width: 15vw;
+  /* height: 20vw; */
+  max-width: 15vw;
   justify-content: center;
   padding: 20px 10px;
   background-color: var(--white);
