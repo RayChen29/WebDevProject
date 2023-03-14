@@ -17,4 +17,4 @@ Included is a blurb about the projects I have had to do in my time at Portland S
 Their sections can be clicked on, which will take you to their respective GitHub pages.
 
 Contact:
-This page contains a contact form which does function using https://formsubmit.co, with the main downside being that the end of the process attempts to send the user back to https://raychen29.github.io, which does not exist due to the root page being https://raychen29.github.io/WebDevProject/index.html(or the first link on this README).
+This page contains a contact form which does not function, though does carry JavaScript event listeners which will disable the Send button until all 3 fields are filled out. 
