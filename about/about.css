@@ -1,7 +1,15 @@
+.navigation {
+  margin-bottom: 30px;
+}
+
 .skill-header {
   text-align: center;
   margin-right: var(--aboutHeader);
   margin: 0 auto;
+}
+
+.lan-work {
+  margin-top: 20px;
 }
 
 .about-div {
@@ -14,8 +22,10 @@
 .about-skills {
   font-weight: normal;
   margin: 0 auto;
+  font-size: 20px;
 }
 
 .skill-bullets {
   margin-left: 30%;
+  font-size: 20px;
 }

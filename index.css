@@ -88,6 +88,11 @@ body {
   display: block;
 }
 
+.intro-text,
+.intro-fun {
+  font-size: 20px;
+}
+
 .github-icon {
   width: 100px;
 }
