@@ -19,8 +19,11 @@
 .contact-card,
 label {
   display: block;
-
   color: var(--white);
+}
+
+input[class$="input"] {
+  border-radius: 5px;
 }
 
 .message-input {
@@ -29,10 +32,6 @@ label {
   padding-bottom: 10%;
   margin-bottom: 3%;
   resize: none;
-}
-
-input[class$="input"] {
-  border-radius: 5px;
 }
 
 .btn {
@@ -47,6 +46,7 @@ input[class$="input"] {
   display: block;
   margin-left: 40%;
 }
+
 .disclaimer {
   display: block;
   color: var(--white);

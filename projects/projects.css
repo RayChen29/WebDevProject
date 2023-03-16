@@ -3,11 +3,6 @@
   font-size: 20px;
 }
 
-.project-header {
-  text-align: center;
-  font-size: 20px;
-}
-
 .project-blurb {
   width: 300px;
   margin: 0 auto;
@@ -26,12 +21,6 @@
   margin-top: 50px;
 }
 
-[class^="project-link"] {
-  color: black;
-  text-decoration: none;
-  padding: 15px 0;
-}
-
 .project1,
 .project3 {
   flex: 1;
@@ -43,6 +32,17 @@
   background-color: var(--white);
   border-radius: 10%;
   margin: 0 2rem;
+}
+
+[class^="project-link"] {
+  color: black;
+  text-decoration: none;
+  padding: 15px 0;
+}
+
+.project-header {
+  text-align: center;
+  font-size: 20px;
 }
 
 .bot-nav {

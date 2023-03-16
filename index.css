@@ -40,16 +40,6 @@ body {
   color: var(--white);
 }
 
-.intro-header {
-  display: block;
-}
-
-.intro-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .introduction {
   overflow: auto;
   width: 40vw;
@@ -65,19 +55,21 @@ body {
   overflow: hidden;
 }
 
+.intro-header {
+  display: block;
+}
+
 .intro-pic {
   margin: auto;
   border-radius: 50%;
   width: 150px;
 }
 
-.links {
-  text-align: center;
+/* .intro-container {
+  display: flex;
   justify-content: center;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 80px;
-}
+  align-items: center;
+} */
 
 .intro-full {
   text-align: center;
@@ -91,6 +83,14 @@ body {
 .intro-text,
 .intro-fun {
   font-size: 20px;
+}
+
+.links {
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 80px;
 }
 
 .github-icon {
